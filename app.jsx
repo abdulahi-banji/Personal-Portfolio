@@ -12,8 +12,8 @@ const App = () => {
             <p className="hero-kicker">Aspiring AI Engineer · Full‑Stack Developer</p>
             <h1 className="hero-name">Abdulahi Oyebanji</h1>
             <p className="hero-tagline">
-              I build practical, intelligent softwares. From embedded robotics to AI‑powered developer tools—
-              and I’m currently sharpening my skills as a Computer Science student passioante to learn new technologies, solve real problems and create impact.
+              I build practical, intelligent softwares. From embedded robotics to AI‑powered developer tools,
+              and I’m currently sharpening my skills as a Computer Science student passionate to learn new technologies, solve real problems and create impact.
             </p>
 
             <div className="hero-buttons">
@@ -105,7 +105,7 @@ const App = () => {
               <SkillColumn
                 icon="fa-code"
                 heading="Languages"
-                items={["Python", "C++", "JavaScript", "HTML & CSS", "SQLite"]}
+                items={["Python", "C++", "JavaScript", "HTML & CSS"]}
               />
               <SkillColumn
                 icon="fa-layer-group"
@@ -114,6 +114,7 @@ const App = () => {
                   "React · Node.js · FastAPI",
                   "Material‑UI · OpenAI API",
                   "Git & GitHub · Vercel",
+                  "SQLite",
                   "VS Code · Google Cloud · Figma",
                 ]}
               />
@@ -122,7 +123,7 @@ const App = () => {
                 heading="Concepts"
                 items={[
                   "Data Structures & Algorithms",
-                  "Object‑Oriented Design",
+                  "Object‑Oriented Programming",
                   "REST APIs · Web Security basics",
                   "Machine Learning & Generative AI fundamentals",
                   "CI/CD and automated testing mindset",
