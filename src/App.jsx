@@ -12,8 +12,8 @@ const App = () => {
             <p className="hero-kicker">Aspiring AI Engineer · Full‑Stack Developer</p>
             <h1 className="hero-name">Abdulahi Oyebanji</h1>
             <p className="hero-tagline">
-              I build practical, intelligent software—from embedded robotics to AI‑powered developer tools—
-              and I’m currently sharpening my skills as a Computer Science student driven to solve real problems and create impact.
+              I build practical, intelligent softwares. From embedded robotics to AI‑powered developer tools—
+              and I’m currently sharpening my skills as a Computer Science student passioante to learn new technologies, solve real problems and create impact.
             </p>
 
             <div className="hero-buttons">
