@@ -119,7 +119,7 @@ const App = () => {
               />
               <SkillColumn
                 icon="fa-circle-nodes"
-                heading="Foundations"
+                heading="Concepts"
                 items={[
                   "Data Structures & Algorithms",
                   "Object‑Oriented Design",
