@@ -1,12 +1,7 @@
 {
-  "buildCommand": "echo 'Static site - no build needed'",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": null,
   "outputDirectory": ".",
-  "framework": "static",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "framework": null
 }
 
