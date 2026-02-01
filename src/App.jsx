@@ -10,7 +10,7 @@ const App = () => {
         <header className="hero">
           <div className="hero-main">
             <p className="hero-kicker">Aspiring AI Engineer · Full‑Stack Developer</p>
-            <h1 className="hero-name">Abdulahi Oyebanji</h1>
+            <h1 className="hero-name"><span id="typed-name" aria-hidden="false"></span></h1>
             <p className="hero-tagline">
               I build practical, intelligent softwares. From embedded robotics to AI‑powered developer tools,
               and I’m currently sharpening my skills as a Computer Science student passionate to learn new technologies, solve real problems and create impact.
@@ -300,15 +300,30 @@ const globalStyles = `
   }
 
   .hero-main {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 3.4rem 1.5rem 2.6rem;
-  }
-
-  .hero-kicker {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+    color: #ffb84d; /* warm headline color (not blue/purple) */
     text-transform: uppercase;
     letter-spacing: 0.18em;
     font-size: 0.7rem;
+
+  /* typed headline caret */
+  #typed-name {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: bottom;
+  }
+
+  .typing {
+    border-right: 2px solid #ffb84d;
+    animation: caretBlink 0.9s steps(1) infinite;
+  }
+
+  @keyframes caretBlink {
+    50% { border-color: transparent; }
+  }
     color: #93c5fd;
     margin-bottom: 0.6rem;
   }
